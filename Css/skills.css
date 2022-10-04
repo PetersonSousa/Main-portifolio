@@ -1,0 +1,34 @@
+.box .conteudoSkills{
+    display: flex;
+    padding: 70px;
+    width: 100%;
+    height: 100%;
+}
+.Titulo-skills{
+    display: flex;
+    width: 50%;
+    font-family: sans-serif;
+    text-decoration: underline;
+    position: absolute;
+}
+
+.conteudoSkills-icones{
+    position: relative;
+}
+
+.imgSkills{
+    display: inline-block;
+    margin-top: 15%;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    padding-right: 4rem;
+    
+}
+
+img:hover {
+    transform: scale(1.1);
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+   
+}
