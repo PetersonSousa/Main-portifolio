@@ -44,12 +44,16 @@
     color: black;
     font-size: 1em;
     margin-left: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+
 }
 
 a:hover {
     font-size: 120%;
-    box-shadow: 5px 6px 15px 9px rgba(0, 0, 0, 0.7);
-    ;
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+   
 }
 
 body {
@@ -60,7 +64,6 @@ body {
 .IconeFoto {
     width: 40px;
 }
-
 
 
 .TituloPrincipal-texto {
@@ -74,39 +77,42 @@ body {
 
 }
 
-
 .Foto-perfil img {
     width: 100%;
     max-height: 450px;
     object-fit: cover;
     object-position: 100% 37%;
     border-bottom-left-radius: 8rem;
+    border: solid;
+    box-shadow: 5px 6px 15px 9px rgba(0, 0, 0, 0.7);
 
 }
 
-
 .ButtonCV  button{
-    background: #069cc2;
+    background: rgb(255, 255, 255);
     border-radius: 6px;
+    border: solid;
     padding: 15px;
     cursor: pointer;
-    color: #fff;
-    border: none;
+    color: rgb(0, 0, 0);
     font-size: 16px;
+    font-weight: bold;
     margin-right: 2rem;
 
 }
 .ButtonProjetos button{
-    background: #069cc2;
+    background: #101010;
     border-radius: 6px;
     padding: 15px;
     cursor: pointer;
     color: #fff;
-    border: none;
     font-size: 16px;
+    font-weight: bold;
 }
 
 .ButtonCV, .ButtonProjetos {
     display: inline-block;
 
+
 }
+
