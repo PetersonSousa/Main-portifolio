@@ -6,23 +6,26 @@
 }
 .Titulo-skills{
     display: flex;
-    width: 50%;
+    width: 80%;
     font-family: sans-serif;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
     position: absolute;
+    justify-content: center;
+    margin-top: 2%;
 }
 
-.conteudoSkills-icones{
+.conteudoSkills-icones-font{
     position: relative;
+    margin: 40px;
+    
 }
 
 .imgSkills{
     display: inline-block;
-    margin-top: 15%;
-    width: 100px;
+    margin-top: 10%;
+    width: 110px;
     height: 100px;
-    align-items: center;
-    padding-right: 4rem;
+    padding-right: 2rem;
     
 }
 
@@ -31,4 +34,31 @@ img:hover {
     -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
     filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
    
+}
+
+.conteudoSkills-icones-salesforce{
+    position: absolute;
+    margin: 30px;
+}
+.botao-trailhead{
+    display: flex;
+    justify-content: center;
+    margin-top: 28%;
+}
+.botao-trailhead-veja{
+    background: rgb(255, 255, 255);
+    border-radius: 6px;
+    border: solid;
+    padding: 15px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 2rem;
+}
+.botao-trailhead-veja:hover{
+    transform: scale(1.1);
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+
 }
