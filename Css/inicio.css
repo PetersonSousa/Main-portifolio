@@ -1,10 +1,15 @@
+:root{
+    --branco: #fff;
+    --pretoSombra: rgba(0, 0, 0, 0.7);
+    --preto: #000000;
+}
 .Box1 {
-    background-color: rgb(255, 255, 255);
+    background-color: var(--branco);
     padding: 70px;
     width: 70%;
     height: 70%;
     position: absolute;
-    box-shadow: 5px 6px 15px 9px rgba(0, 0, 0, 0.7);
+    box-shadow: 5px 6px 15px 9px var(--pretoSombra);
     border-radius: 10px;
 
 
@@ -41,7 +46,7 @@
     text-decoration: none;
     font-family: sans-serif, Arial, Helvetica, sans-serif;
     font-weight: bold;
-    color: black;
+    color: var(--preto);
     font-size: 1em;
     margin-left: 10px;
     transition: all 0.5s;
@@ -51,8 +56,8 @@
 
 a:hover {
     font-size: 120%;
-    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
-    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    -webkit-filter: drop-shadow(15px 10px 5px var(--pretoSombra));
+    filter: drop-shadow(15px 10px 5px var(--pretoSombra));
 
 }
 
@@ -83,18 +88,18 @@ body {
     object-fit: cover;
     object-position: 100% 37%;
     border-bottom-left-radius: 8rem;
-    border: 3px solid #000;
-    box-shadow: 5px 6px 15px 9px rgba(0, 0, 0, 0.7);
+    border: 3px solid var(--preto);
+    box-shadow: 5px 6px 15px 9px var(--pretoSombra);
 
 }
 
 .ButtonCV button {
-    background: rgb(255, 255, 255);
+    background: var(--branco);
     border-radius: 6px;
     border: solid;
     padding: 15px;
     cursor: pointer;
-    color: rgb(0, 0, 0);
+    color: var(--preto);
     font-size: 16px;
     font-weight: bold;
     margin-right: 2rem;
@@ -102,11 +107,11 @@ body {
 }
 
 .ButtonProjetos button {
-    background: #101010;
+    background: var(--preto);
     border-radius: 6px;
     padding: 15px;
     cursor: pointer;
-    color: #fff;
+    color: var(--branco);
     font-size: 16px;
     font-weight: bold;
 }
@@ -140,7 +145,7 @@ body {
 
 .Redes-sociais-img:hover {
     transform: scale(1.1);
-    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
-    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    -webkit-filter: drop-shadow(15px 10px 5px var(--pretoSombra));
+    filter: drop-shadow(15px 10px 5px var(--pretoSombra));
 
 }
