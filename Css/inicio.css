@@ -5,7 +5,7 @@
 }
 .Box1 {
     background-color: var(--branco);
-    padding: 70px;
+    padding: 2.5rem;
     width: 70%;
     height: 70%;
     position: absolute;
@@ -17,7 +17,7 @@
 
 .content {
     width: 100vw;
-    height: 960px;
+    height: 60rem;
     background-image: linear-gradient(to right, #1F3040 50%, #FF9442 50%);
     position: relative;
     display: flex;
@@ -37,7 +37,7 @@
 
 .cabecalhoPrincipal-nav {
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1rem;
     text-align: right;
 
 }
@@ -47,7 +47,7 @@
     font-family: sans-serif, Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: var(--preto);
-    font-size: 1em;
+    font-size: 1rem;
     margin-left: 10px;
     transition: all 0.5s;
     cursor: pointer;
@@ -67,7 +67,7 @@ body {
 }
 
 .IconeFoto {
-    width: 40px;
+    width: 2.5rem;
 }
 
 
@@ -78,8 +78,8 @@ body {
 }
 
 .Foto-perfil {
-    width: 40%;
-
+    width: 30%;
+    margin-left: 2rem;
 }
 
 .Foto-perfil img {
@@ -149,3 +149,4 @@ body {
     filter: drop-shadow(15px 10px 5px var(--pretoSombra));
 
 }
+
