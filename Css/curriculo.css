@@ -1,0 +1,60 @@
+.container{
+display: flex;
+ width: 100%;
+ height: 100%;
+ justify-content: center;
+ background: linear-gradient(180deg, #C6D2D3 0%, #93DDB0 48.75%, #A1CCD6 100%);
+
+ 
+}
+
+.box{
+    box-sizing: border-box;
+    position: relative;
+    width: 37.125rem;
+    height: 52.625rem;
+    background: linear-gradient(180deg, #FEF7F7 0%, rgba(188, 187, 187, 0) 100%);
+    border: 2px solid #000000;
+    border-radius: 15px;
+ 
+}
+
+.boxPerfil{
+    position: absolute;
+    width: 11rem;
+    height: 52.4rem;
+    left: 0px;
+    top: 0rem;
+    border-radius: 15px;
+    background: #C6D2D3;
+   
+}
+.boxPerfil__Container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 13px;
+    position: absolute;
+    width: 180px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+.imgHeader{
+    width: 8rem;
+    height: 7rem;
+    border-radius: 50%;
+}
+.tituloNome{
+    font-size: 0.90rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.boxConteudo{
+    position: absolute;
+    width: 414px;
+    height: 825px;
+    left: 176px;
+    top: 8px;
+    
+}
