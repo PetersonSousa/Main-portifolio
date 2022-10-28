@@ -43,7 +43,7 @@ img:hover {
 .botao-trailhead{
     display: flex;
     justify-content: center;
-    margin-top: 28%;
+    margin-top: 15rem;
 }
 .botao-trailhead-veja{
     background: var(--branco);
@@ -55,10 +55,41 @@ img:hover {
     font-size: 16px;
     font-weight: bold;
     margin-right: 2rem;
+    margin-top: 2.5rem;
 }
 .botao-trailhead-veja:hover{
     transform: scale(1.1);
     -webkit-filter: drop-shadow(15px 10px 5px var(--pretoSombra));
     filter: drop-shadow(15px 10px 5px var(--pretoSombra));
 
+}
+@media screen and (max-width: 768px){
+    .Box1{
+    
+        height: 80%;
+    }
+    .cabecalhoPrincipal-nav{
+        width: 18rem;
+       
+    }
+    .cabecalhoPrincipal-nav-link{
+        text-align: center;
+        
+    }
+    .Titulo-skills{
+        font-size: 1.15rem;
+        position: relative;
+        margin-top: 2rem;
+        
+    }
+    .imgSkills{
+        width: 2.15rem;
+        height: 2.5rem;
+        
+    }
+
+    .botao-trailhead{
+        position: relative;
+        margin-top: 12rem;
+    }
 }
