@@ -7,31 +7,7 @@ display: flex;
 
  
 }
-.botaoVoltar{
-    width: 5%;
-    height: 10%;
-    display: flex;
-    margin-top: 1rem;
-}
-.botaoVoltar_click{
-    background: #FEF7F7;
-    border-radius: 6px;
-    border: solid;
-    padding: 1rem;
-    cursor: pointer;
-    color: #000;
-    font-size: 10px;
-    font-weight: bold;
-    margin-right: 2rem;
-    margin-top: 0;
-}
 
-.botaoVoltar_click :hover{
-    transform: scale(1.1);
-    -webkit-filter: drop-shadow(15px 10px 5px var(--pretoSombra));
-    filter: drop-shadow(15px 10px 5px var(--pretoSombra));
-
-}
 .box{
     box-sizing: border-box;
     position: relative;
@@ -41,30 +17,6 @@ display: flex;
     border: 2px solid #000000;
     border-radius: 15px;
  
-}
-.BotaoDonwload{
-    display: flex;
-    justify-content: end;
-    margin-top: 1rem;
-    
-}
-.BotaoDonwload_click{
-    background: #FEF7F7;
-    border-radius: 6px;
-    border: solid;
-    padding: 1rem;
-    cursor: pointer;
-    color: #000;
-    font-size: 10px;
-    font-weight: bold;
-    margin-right: 2rem;
-    margin-top: 0;
-}
-.BotaoDonwload_click:hover{
-    transform: scale(1.1);
-    -webkit-filter: drop-shadow(15px 10px 5px var(--pretoSombra));
-    filter: drop-shadow(15px 10px 5px var(--pretoSombra));
-
 }
 
 .boxPerfil{
@@ -124,4 +76,53 @@ display: flex;
     left: 176px;
     top: 8px;
     
+}
+
+.box-botao{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    
+}
+.BotaoDonwload{
+ margin-left: 32rem;
+    
+}
+.BotaoDonwload_click{
+    background: #FEF7F7;
+    border-radius: 6px;
+    border: solid;
+    padding: 1rem;
+    cursor: pointer;
+    color: #000;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+.BotaoDonwload_click:hover{
+    transform: scale(1.1);
+    -webkit-filter: drop-shadow(15px 10px 5px #000);
+    filter: drop-shadow(15px 10px 5px #000);
+
+}
+
+.botaoVoltar{
+ margin-left: 20rem;
+}
+.botaoVoltar_click{
+    background: #FEF7F7;
+    border-radius: 6px;
+    border: solid;
+    padding: 1rem;
+    cursor: pointer;
+    color: #000;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.botaoVoltar_click:hover{
+    transform: scale(1.1);
+    -webkit-filter: drop-shadow(15px 10px 5px #000);
+    filter: drop-shadow(15px 10px 5px #000);
 }
